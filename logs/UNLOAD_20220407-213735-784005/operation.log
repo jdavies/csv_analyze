@@ -1,0 +1,15 @@
+2022-04-07 21:37:35 INFO  Username and password provided but auth provider not specified, inferring PlainTextAuthProvider
+2022-04-07 21:37:35 INFO  A cloud secure connect bundle was provided: ignoring all explicit contact points.
+2022-04-07 21:37:35 INFO  Operation directory: /Users/jeffdavies/GitHub/csv_analyze/logs/UNLOAD_20220407-213735-784005
+2022-04-07 21:37:43 INFO  Operation UNLOAD_20220407-213735-784005 completed successfully in 1 second.
+2022-04-07 21:37:43 INFO  Records: total: 2, successful: 2, failed: 0
+2022-04-07 21:37:43 INFO  Memory usage: used: 494 MB, free: 121 MB, allocated: 616 MB, available: 8,192 MB, total gc count: 7, total gc time: 65 ms
+2022-04-07 21:37:43 INFO  Reads: total: 2, successful: 2, failed: 0, in-flight: 0
+2022-04-07 21:37:43 INFO  Throughput: 1 reads/second
+2022-04-07 21:37:43 INFO  Latencies: mean 103.02, 75p 105.38, 99p 105.38, 999p 105.38 milliseconds
+2022-04-07 21:37:45 INFO  Final stats:
+2022-04-07 21:37:45 INFO  Records: total: 2, successful: 2, failed: 0
+2022-04-07 21:37:45 INFO  Memory usage: used: 495 MB, free: 120 MB, allocated: 616 MB, available: 8,192 MB, total gc count: 7, total gc time: 65 ms
+2022-04-07 21:37:45 INFO  Reads: total: 2, successful: 2, failed: 0, in-flight: 0
+2022-04-07 21:37:45 INFO  Throughput: 0 reads/second
+2022-04-07 21:37:45 INFO  Latencies: mean 103.02, 75p 105.38, 99p 105.38, 999p 105.38 milliseconds

@@ -1,0 +1,16 @@
+2022-04-07 21:35:09 INFO  Username and password provided but auth provider not specified, inferring PlainTextAuthProvider
+2022-04-07 21:35:09 INFO  A cloud secure connect bundle was provided: ignoring all explicit contact points.
+2022-04-07 21:35:09 INFO  Operation directory: /Users/jeffdavies/GitHub/csv_analyze/logs/UNLOAD_20220407-213509-238102
+2022-04-07 21:35:43 WARN  [driver|06de6da8-79b7-4d41-b993-8479e87a75d4-us-east-2.db.astra.datastax.com:29042:92d102f5-a2f0-4bf6-a57d-810db39edbb9]  Error while opening new channel (ConnectTimeoutException: connection timed out: 06de6da8-79b7-4d41-b993-8479e87a75d4-us-east-2.db.astra.datastax.com/3.16.55.57:29042)
+2022-04-07 21:35:46 INFO  Operation UNLOAD_20220407-213509-238102 completed successfully in 1 second.
+2022-04-07 21:35:46 INFO  Records: total: 2, successful: 2, failed: 0
+2022-04-07 21:35:46 INFO  Memory usage: used: 497 MB, free: 134 MB, allocated: 632 MB, available: 8,192 MB, total gc count: 7, total gc time: 51 ms
+2022-04-07 21:35:46 INFO  Reads: total: 2, successful: 2, failed: 0, in-flight: 0
+2022-04-07 21:35:46 INFO  Throughput: 1 reads/second
+2022-04-07 21:35:46 INFO  Latencies: mean 123.47, 75p 124.26, 99p 124.26, 999p 124.26 milliseconds
+2022-04-07 21:35:48 INFO  Final stats:
+2022-04-07 21:35:48 INFO  Records: total: 2, successful: 2, failed: 0
+2022-04-07 21:35:48 INFO  Memory usage: used: 503 MB, free: 128 MB, allocated: 632 MB, available: 8,192 MB, total gc count: 7, total gc time: 51 ms
+2022-04-07 21:35:48 INFO  Reads: total: 2, successful: 2, failed: 0, in-flight: 0
+2022-04-07 21:35:48 INFO  Throughput: 0 reads/second
+2022-04-07 21:35:48 INFO  Latencies: mean 123.47, 75p 124.26, 99p 124.26, 999p 124.26 milliseconds
