@@ -7,7 +7,7 @@ this, you can quickly see if any field exceeds the 10MB Astra guardrail limit.
 ## Usage
 
 ```sh
-python csv_analyze <filename.csv>
+python csv_analyze.py <filename.csv>
 ```
 
 It will provide output similar to the following:
@@ -19,4 +19,15 @@ Field Name   Max Size
 id           16b
 blob         12K
 big_blob     8M
+```
+
+## DSBulk commands:
+
+### Unload the database
+
+```sh
+source setenv.sh
+rm -r sample_data
+dsbulk unload -k demo -t test_data -u $ASTRA_CLIENT_ID -p $ASTRA_CLIENT_SECRET \
+-b "secure-connect-byok-demo.zip" -url sampledata2.csv
 ```
