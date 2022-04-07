@@ -27,3 +27,12 @@ create table test_data(
     myfloat float,
     PRIMARY KEY((name))
 );
+
+-- Test 
+-- create table test_data(
+--     id uuid,
+--     name text,
+--     mybool boolean,
+--     myfloat float,
+--     PRIMARY KEY((name))
+-- );
