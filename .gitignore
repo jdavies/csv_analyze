@@ -4,3 +4,4 @@ secure-connect-byok-demo.zip
 *.csv
 sampledata
 logs
+*.log
