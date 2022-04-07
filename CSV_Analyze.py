@@ -25,12 +25,7 @@ def dataSizeName(numBytes: int):
     else:
         return 'An error occured formatting the nmber {}.'.format(numBytes)
 
-
-# print ('Number of arguments:', len(sys.argv), 'arguments.')
-# print ('Argument List:', str(sys.argv))
-
-# fileName = sys.argv[1]
-fileName = 'sample.csv'
+fileName = sys.argv[1]
 
 print('Analyzing ', fileName)
 # Open the filename specified on the command line
