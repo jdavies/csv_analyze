@@ -4,6 +4,6 @@ secure-connect-byok-demo.zip
 **/sampledata
 sampledata/**
 **/logs
-logs/**
+**/logs/**
 **/.DS_Store
 **/.DS_Store/**
