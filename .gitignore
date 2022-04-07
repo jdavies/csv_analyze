@@ -1,7 +1,7 @@
 make_prodids.py
 setenv.sh
 secure-connect-byok-demo.zip
-sampledata
-sampledata/*
-logs
-logs/*
+**/sampledata
+sampledata/**
+**/logs
+logs/**
